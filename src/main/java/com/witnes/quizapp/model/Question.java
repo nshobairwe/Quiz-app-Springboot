@@ -1,12 +1,10 @@
-package com.witnes.quizapp;
+package com.witnes.quizapp.model;
 
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-
-import javax.annotation.processing.Generated;
 
 @Entity
 public class Question {

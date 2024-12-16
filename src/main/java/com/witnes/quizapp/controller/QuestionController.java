@@ -1,6 +1,6 @@
 package com.witnes.quizapp.controller;
 
-import com.witnes.quizapp.Question;
+import com.witnes.quizapp.model.Question;
 import com.witnes.quizapp.service.QuestionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

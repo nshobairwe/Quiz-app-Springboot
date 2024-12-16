@@ -1,16 +1,13 @@
 package com.witnes.quizapp.service;
 
 
-import com.witnes.quizapp.Question;
+import com.witnes.quizapp.model.Question;
 import com.witnes.quizapp.dao.QuestionDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @Service
